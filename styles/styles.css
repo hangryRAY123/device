@@ -10,7 +10,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(/fonts/raleway/raleway-800.woff2) format("woff2");
+  src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
 }
 
 @font-face {
@@ -18,7 +18,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/rubik/rubik-400.woff2) format("woff2");
+  src: url(../fonts/rubik/rubik-400.woff2) format("woff2");
 }
 
 @font-face {
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(/fonts/rubik/rubik-700.woff2) format("woff2");
+  src: url(../fonts/rubik/rubik-700.woff2) format("woff2");
 }
 
 html {
@@ -106,7 +106,7 @@ img {
   border: 2px solid #000000;
   border-radius: 50px 0px 0px 50px;
   background-color: #ffe17f;
-  background-image: url("/image/logo/search.svg");
+  background-image: url("../image/logo/search.svg");
   background-repeat: no-repeat;
   background-position: 4% 50%;
 }
@@ -131,7 +131,7 @@ img {
 
 .search input:disabled {
   border: 2px solid rgba(0, 0, 0, 0.3);
-  background-image: url("/image/logo/search-disabled.svg");
+  background-image: url("../image/logo/search-disabled.svg");
   z-index: 1;
 }
 
@@ -711,7 +711,7 @@ img {
   content: "";
   width: 136px;
   height: 164px;
-  background-image: url("/image/logo/delivery-2.svg");
+  background-image: url("../image/logo/delivery-2.svg");
   top: 0;
   right: -54%;
   top: 18%;
@@ -722,7 +722,7 @@ img {
   content: "";
   width: 171px;
   height: 195px;
-  background-image: url("/image/logo/warranty-1.svg");
+  background-image: url("../image/logo/warranty-1.svg");
   top: 0;
   right: -54%;
   top: 18%;
@@ -733,7 +733,7 @@ img {
   content: "";
   width: 156px;
   height: 188px;
-  background-image: url("/image/logo/credit-1.svg");
+  background-image: url("../image/logo/credit-1.svg");
   top: 0;
   right: -54%;
   top: 18%;
@@ -981,7 +981,7 @@ img {
   content: "";
   width: 16px;
   height: 16px;
-  background-image: url("/image/logo/tick-big-1.svg");
+  background-image: url("../image/logo/tick-big-1.svg");
   background-repeat: no-repeat;
   top: 25%;
   left: -26%;
@@ -1315,7 +1315,7 @@ img {
   content: "";
   width: 4px;
   height: 7px;
-  background-image: url(/image/logo/breadcrumbs.svg);
+  background-image: url(../image/logo/breadcrumbs.svg);
   background-repeat: no-repeat;
   top: 35%;
   right: -22px;
